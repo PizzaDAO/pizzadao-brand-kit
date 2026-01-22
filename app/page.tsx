@@ -245,28 +245,30 @@ export default function BrandKit() {
             <p className="text-gray-800 mb-8 lg:mb-12">Our three-eyed pizza slice mascot.</p>
 
             <div className="grid md:grid-cols-2 gap-6 lg:gap-8 mb-8">
-              <a href={`${BASE_PATH}/molto-benny/molto-benny-color-pizzadao.png`} download className="bg-white rounded-lg p-6 lg:p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block">
-                <div className="h-[150px] lg:h-[200px] flex items-center justify-center mb-4">
+              <a href={`${BASE_PATH}/molto-benny/molto-benny-color-pizzadao.png`} download className="bg-white rounded-lg p-6 lg:p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block" data-testid="molto-benny-pizzadao">
+                <div className="h-[200px] lg:h-[250px] flex items-center justify-center mb-4">
                   <Image
                     src={`${BASE_PATH}/molto-benny/molto-benny-color-pizzadao.png`}
                     alt="Molto Benny PizzaDAO"
-                    width={200}
-                    height={200}
-                    className="object-contain w-[150px] h-[150px] lg:w-[200px] lg:h-[200px]"
+                    width={280}
+                    height={280}
+                    className="object-contain w-[220px] h-[220px] lg:w-[280px] lg:h-[280px]"
+                    data-testid="molto-benny-pizzadao-img"
                   />
                 </div>
                 <p className="font-medium">Molto Benny (PizzaDAO)</p>
                 <p className="text-sm text-gray-500">PNG</p>
               </a>
 
-              <a href={`${BASE_PATH}/molto-benny/molto-benny-color-btc.svg`} download className="bg-white rounded-lg p-6 lg:p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block">
-                <div className="h-[150px] lg:h-[200px] flex items-center justify-center mb-4">
+              <a href={`${BASE_PATH}/molto-benny/molto-benny-color-btc.svg`} download className="bg-white rounded-lg p-6 lg:p-8 text-center hover:shadow-lg transition-shadow cursor-pointer block" data-testid="molto-benny-btc">
+                <div className="h-[200px] lg:h-[250px] flex items-center justify-center mb-4">
                   <Image
                     src={`${BASE_PATH}/molto-benny/molto-benny-color-btc.svg`}
                     alt="Molto Benny BTC"
                     width={200}
                     height={200}
-                    className="object-contain w-[150px] h-[150px] lg:w-[200px] lg:h-[200px]"
+                    className="object-contain w-[160px] h-[160px] lg:w-[200px] lg:h-[200px]"
+                    data-testid="molto-benny-btc-img"
                   />
                 </div>
                 <p className="font-medium">Molto Benny (BTC)</p>
