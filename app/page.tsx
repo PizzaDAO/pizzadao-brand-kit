@@ -206,7 +206,7 @@ export default function BrandKit() {
               <div>
                 <h3 className="text-xl font-bold mb-4">Primary: Naiche</h3>
                 <p className="text-gray-600 mb-6">Used for headlines and display text. A bold, distinctive typeface.</p>
-                <div className="bg-gray-100 rounded-lg p-6 lg:p-8 mb-4">
+                <div className="bg-gray-100 rounded-lg p-6 lg:p-8 mb-4 h-[120px] lg:h-[140px] flex items-center">
                   <p className="text-3xl lg:text-5xl font-black">PIZZA THE PLANET</p>
                 </div>
                 <a
@@ -222,7 +222,7 @@ export default function BrandKit() {
               <div>
                 <h3 className="text-xl font-bold mb-4">Secondary: Rubik Extra Black</h3>
                 <p className="text-gray-600 mb-6">Used for body text and UI elements. Available on Google Fonts.</p>
-                <div className="bg-gray-100 rounded-lg p-6 lg:p-8 mb-4">
+                <div className="bg-gray-100 rounded-lg p-6 lg:p-8 mb-4 h-[120px] lg:h-[140px] flex items-center">
                   <p className="text-2xl lg:text-4xl font-black" style={{ fontFamily: 'var(--font-rubik)' }}>The world&apos;s largest pizza co-op</p>
                 </div>
                 <a
